@@ -1,3 +1,33 @@
+# Contêiner
+
+Um container é um ambiente isolado utilizado para empacotar aplicações. Containers têm o objetivo de segregar e facilitar a portabilidade de aplicações em diferentes ambientes. Um container contém um conjunto de processos que são executados a partir de uma imagem, imagem esta que fornece todas as dependências necessárias.
+
+# Vantagens em utilizar contêineres 
+
+### Portabilidade 
+
+Os contêineres encapsulam aplicativos e todas as suas dependências em um pacote isolado. Isso torna os contêineres altamente portáteis, permitindo que os aplicativos sejam executados consistentemente em qualquer ambiente que suporte contêineres, desde ambientes de desenvolvimento local até nuvens públicas ou privadas.
+
+### Consistência de Ambiente
+
+Os contêineres garantem que os aplicativos sejam executados de maneira consistente em diferentes ambientes, eliminando problemas causados por diferenças na configuração do sistema operacional ou nas bibliotecas de software. Isso simplifica o desenvolvimento, teste e implantação de aplicativos, garantindo uma experiência uniforme em todos os estágios do ciclo de vida do desenvolvimento de software.
+
+### Eficiência de Recursos
+
+Os contêineres compartilham o kernel do sistema operacional hospedeiro e são mais leves que as máquinas virtuais tradicionais. Isso resulta em uma utilização mais eficiente dos recursos de hardware, permitindo que mais contêineres sejam executados em um único servidor físico e reduzindo os custos operacionais associados ao provisionamento e gerenciamento de infraestrutura.
+
+### Escalabilidade
+
+Os contêineres podem ser implantados e dimensionados rapidamente conforme a demanda, permitindo que os aplicativos respondam de maneira ágil a picos de tráfego ou carga de trabalho. Ferramentas de orquestração de contêineres, como Kubernetes, Docker Swarm e Amazon ECS, facilitam a automação do dimensionamento horizontal e vertical dos contêineres, garantindo uma escalabilidade eficiente e confiável.
+
+### Isolamento
+
+Os contêineres fornecem isolamento de recursos entre aplicativos, garantindo que eles não interfiram uns com os outros e evitando conflitos de dependências. Isso permite que diferentes versões de uma mesma biblioteca ou serviço sejam executadas simultaneamente em contêineres separados, sem causar conflitos ou complicações.
+
+### Facilidade de Implantação e Atualização
+
+Os contêineres simplificam o processo de implantação e atualização de aplicativos, permitindo que eles sejam empacotados juntamente com todas as suas dependências e configurações em um único artefato. Isso facilita a distribuição de novas versões de aplicativos e a implementação de atualizações de segurança de forma rápida e consistente.
+
 # Docker
 
 ## O que são containers?
