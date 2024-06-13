@@ -2,6 +2,12 @@
 
 Um container é um ambiente isolado utilizado para empacotar aplicações. Containers têm o objetivo de segregar e facilitar a portabilidade de aplicações em diferentes ambientes. Um container contém um conjunto de processos que são executados a partir de uma imagem, imagem esta que fornece todas as dependências necessárias.
 
+<p align="center">
+  <img src="https://www.akamai.com/site/pt/images/article/2023/what-is-managed-kubernetes.png" width="350" title="prog 1 e 2">
+</p>
+
+
+
 # Vantagens em utilizar contêineres 
 
 ### Portabilidade 
